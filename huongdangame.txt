@@ -1,0 +1,38 @@
+Luật chơi ROBOT WAR
+Giới thiệu
+Một mảng 2 chiều chứa các số nguyên dương (không trùng nhau) đặc tả mê cung, 1 robot được đặt ở vị trí (x,y). Robot chỉ có thể đi theo 4 hướng(trên, dưới, trái, phải). Robot sẽ lựa chọn hướng có giá trị lớn để đi và không đi lại các ô trước đó với các chức năng:
+o	In ra quãng đường đi
+o	Đếm các điểm giao nhau của 2 robot tại 2 đường đi
+o	Tìm Robot có trọng số lớn nhất trong 2 robot với yều cầu: robot A đi trước, B đi sau, mỗi lượt chỉ được đi một lần và không đi vào đường đi của robot khác
+ví dụ ma trận 3x3:
+_|_0_1_2_
+0| 1 2 3
+1| 4 5 6
+2| 7 8 9
+
+Chế độ 1:
+PVP(Chơi với người)(nhấn phím 1)
+Gồm 4 chức năng:
+o	Chức năng 1 cho phép người chơi tạo ma trận với kích thước tùy ý và nhập các số nguyên dương tùy ý.(nhấn phím 1)
+o	Chức năng 2 cho phép người chơi tìm đường đi của robot dựa trên vị trí mà người dùng nhập.(nhấn phím 2)
+o	Chức năng 3 cho phép người chơi tìm được các số nguyên dương mà ở đó cả 2 robot đều đi qua.(nhấn phím 3)
+o	Chức năng 4 cho phép người dùng tìm được robot có trọng số lớn nhất dựa trên vị trí được nhập của 2 robot.(nhấn phím 4)
+Chế độ 2:
+PVE(Chơi với máy)(nhấn phím 2)
+Gồm 3 mức:
+Mức 1: Dễ
+Mức 1 cũng gồm 4 chức năng giống chế độ 1. Gồm 2 chế độ(người nhập hoặc máy nhập), kích thước  ma trận sẽ từ 3x3 -> 5x6. Các số nguyên dương từ 1 -> 30 do máy tạo.
+Mức 2: Trung bình
+Mức 2 cũng gồm 4 chức năng giống chế độ 1. Cũng gồm 2 chế độ(người nhập hoặc máy nhập, kích thước ma trận sẽ từ 4x3 ->8x10. Các số nguyên dương từ 1 -> 80 do máy tạo.
+Mức 3: Khó	
+Mức 1 cũng gồm 4 chức năng giống chế độ 1.Cũng gồm 2 chế độ(người nhập hoặc máy nhập, kích thước ma trận sẽ từ 5x7 ->10x10. Các số nguyên dương từ 50 -> 150 do máy tạo.
+Lưu ý:
+o	Sử dụng các phím trên bàn phím để chọn chế độ, chức năng
+o	Bạn phải nhập ma trận trước khi muốn sử dụng các chức năng khác
+o	Khi thấy trò chơi hiện dòng thông báo:”Bam ‘x’ de thoat che do”, nếu muốn tiếp tục chơi trong chế độ đó hãy bấm chọn các phím là chữ 	cái trên bàn phím
+o	Lịch sử chơi của bạn sẽ được cập nhập ngay khi kết thúc trò chơi.
+
+
+
+
+
