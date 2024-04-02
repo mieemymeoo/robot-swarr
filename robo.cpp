@@ -17,8 +17,6 @@ struct robot{
     int *kq;
     int n;
 };
-
-
 void input(matrix &m) {
     cout << "Nhap cac phan tu cua mang 2D:" << endl;
     for (int i = 0; i < m.row; i++) {
